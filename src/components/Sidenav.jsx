@@ -22,7 +22,7 @@ const Sidenav = () => {
         onClick={handleNav}
         className="top-4 right-4 z-[99] md:hidden hover:translate-x-[-8px] ease-in duration-[0.2s] fixed"
       />
-
+ {/* this is the navigation bar for the smaller screens */}
       {nav ? (
         <div className=" fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-50">
           <a

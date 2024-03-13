@@ -4,12 +4,12 @@ import {data} from '../../public/data'
 
 const Work = () => {
   return (
-    <div className='bg-black h-screen w-full'>
+    <div className='bg-black w-full'>
 
     <div id='work' className=' w-[40%] md:w-[15%] flex justify-center shadow-md font-bold  text-white text-xl  shadow-gray-500 rounded-full p-4 z-30'>
     Work Experience</div>
 
-    <div className=' text-white md:mt-[3.2rem] mt-[5rem] pl-10 flex justify-center flex-col z-30'
+    <div className=' text-white md:mt-[3.2rem] mb-[5rem] mt-[5rem] pl-10 flex justify-center flex-col z-30'
     >
     {data.map(item=>{
 

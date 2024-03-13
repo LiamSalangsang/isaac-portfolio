@@ -10,7 +10,7 @@ const Projects = () => {
   }
   
   return (
-    <div className='bg-black w-full md:h-[110vh] h-screen'>
+    <div className=' w-full '>
     <div id = 'projects' className=' w-[75%] md:w-[30%] flex gap-1 justify-center shadow-md font-bold  text-white text-xl  shadow-gray-500 rounded-full p-4 z-30'>
 
     Projects
@@ -19,7 +19,7 @@ const Projects = () => {
     </div>
     
 
-    <div className=' w-[100%] text-white md:pl-10 pl-4 pr-4 mt-10 z-30'
+    <div className='space-y-[5rem] w-[100%] text-white md:pl-10 pl-4 pr-4 mt-10 pb-10 z-30'
     >
     {projectData.map(item=>{
 
@@ -27,7 +27,7 @@ const Projects = () => {
       return(
         <>
         <div className=''>
-        <button  onClick={handleDesc} className=" relative p-9 md:cursor-default border-white hover:border-purple-950 md:hover:border-white ease-in duration-200 mb-4 w-full border-2 rounded-[5rem] z-10">
+        <button  onClick={handleDesc} className=" relative p-9 md:cursor-default border-white hover:bg-blue-600 md:hover:border-white ease-in duration-200 w-full border-2 rounded-[5rem] z-10">
         <div className='absolute left-[-0.5rem] z-20'>
 
         </div>
@@ -48,6 +48,7 @@ const Projects = () => {
       )
     })}
     </div>
+    
 
 
   
